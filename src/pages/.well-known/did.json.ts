@@ -9,13 +9,13 @@ export const GET: APIRoute = async function GET() {
       "https://w3id.org/security/suites/secp256k1-2019/v1",
     ],
     id: "did:web:web.mmatt.net",
-    alsoKnownAs: ["at://web.mmatt.net", "at://didweb.pds.mmatt.net"],
+    alsoKnownAs: ["at://web.mmatt.net"],
     verificationMethod: [
       {
         id: "did:web:web.mmatt.net#atproto",
         type: "Multikey",
         controller: "did:web:web.mmatt.net",
-        publicKeyMultibase: "zQ3shZkR5zwAWGmvvBCYh951BCuvEQGJMkSfQ4R1w21dkfSSq",
+        publicKeyMultibase: "zQ3shm8D6nMWEosLCmUR9AAj1r1LS6C11Lex2oA72nsrnGuSf",
       },
     ],
     service: [
